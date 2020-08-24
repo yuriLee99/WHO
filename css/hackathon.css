@@ -1,0 +1,19 @@
+.hackathon{
+    width: 1100px;
+    margin: 0px auto; 
+    padding: 20px 0px;
+}
+.hackathon_info{
+    border-bottom: 1px solid darkgray;
+}
+.hackathon_staff{
+    border-bottom: 1px solid darkgray;
+}
+.hackathon_apply{
+    border-bottom: 1px solid darkgray;
+}
+.hackathon_title{
+    font-size: 17px;
+    font-weight: 800;
+    padding: 10px 0px;
+}
