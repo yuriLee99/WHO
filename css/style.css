@@ -1,2 +1,12 @@
 @import "footer.css";
 @import "hackathon.css";
+@import "contact.css";
+
+html{
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+}
+body{
+    min-height: 100%;
+}
