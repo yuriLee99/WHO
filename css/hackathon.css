@@ -3,16 +3,16 @@
     margin: 0px auto; 
     padding: 20px 0px;
 }
-.hackathon_info{
+.hackathonInfo{
     border-bottom: 1px solid darkgray;
 }
-.hackathon_staff{
+.hackathonStaff{
     border-bottom: 1px solid darkgray;
 }
-.hackathon_apply{
+.hackathonApply{
     border-bottom: 1px solid darkgray;
 }
-.hackathon_title{
+.hackathonTitle{
     font-size: 17px;
     font-weight: 800;
     padding: 10px 0px;
