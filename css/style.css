@@ -1,17 +1,18 @@
 @import "header.css";
-@import "home.css";
-@import "footer.css";
 @import "hackathon.css";
+@import "footer.css";
 @import "contact.css";
 
 html{
     position: relative;
     min-height: 100%;
     margin: 0;
+    padding: 0;
 }
 body{
     min-height: 100%;
 }
+
 * {
     box-sizing: border-box;
 }
