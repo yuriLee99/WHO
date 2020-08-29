@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <title>WHO</title>
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/style.css"/>
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=awm82lenfm"></script>
 </head>
 <body>
     <header class="header">
@@ -38,7 +40,7 @@
         <div class="contactTitle">Contact</div>
         <div class="contactInfo">
             <div class="contactSubtitle">찾아오는 길</div>
-            <div class="contactMap">지도</div>
+            <div class="contactMap" id="map" style="width:400px;height:400px;"></div>
             <div class="contactInfoBox">
                 <div class="contactInfoTitle">주　소</div>
                 <div class="contactInfoContents">전라북도 전주시 덕진구 백제대로 567 전북대학교 공과대학 7호관 지하 WHO</div>
@@ -71,5 +73,22 @@
             </div>
         </div>
     </footer>
+    <script>
+        var mapOptions = {
+            center: new naver.maps.LatLng(35.846196, 127.134424),
+            zoom: 17
+        };
+        var map = new naver.maps.Map('map', mapOptions);
+
+        var map = new naver.maps.Map('map', {
+            center: new naver.maps.LatLng(35.846196, 127.134424),
+            zoom: 17
+        });
+
+        var marker = new naver.maps.Marker({
+            position: new naver.maps.LatLng(35.846196, 127.134424),
+            map: map
+        });
+        </script>
 </body>
 </html>
