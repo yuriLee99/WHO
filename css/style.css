@@ -1,14 +1,9 @@
-@import "header.css";
-@import "hackathon.css";
-@import "footer.css";
-@import "contact.css";
-
-html{
-    position: relative;
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
-}
+@import "../css/header.css";
+@import "../css/hackathon.css";
+@import "../css/footer.css";
+@import "../css/contact.css";
+@import "../css/organizer.css";
+@import "../css/home.css";
 
 * {
     box-sizing: border-box;
@@ -16,4 +11,11 @@ html{
 
 a {
     color : black;
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
 }
